@@ -36,6 +36,7 @@
         }
         .item img{
             width: 100%;
+            vertical-align: middle;
         }
         .item h2{
             border-bottom: 1px solid #888;
@@ -49,13 +50,19 @@
         }
         .item .text{
             padding: 20px;
+            position: relative;
         }
         .item .text::before{
             content: '';
+            position: absolute;
             height: 0;
             width: 0;
-            border-top: 50px;
-            
+            left: 0;
+            top: 0;
+            border-top: 50px solid transparent;
+            border-left: 184px solid #fff;
+            border-right: 184px solid #fff;
+            transform: translateY(-100%);
 
         }
     </style>
