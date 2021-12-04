@@ -15,14 +15,24 @@
             list-style: none;
             font-family: 'Noto Sans TC', sans-serif;
         }
+        html,body{
+            height: 100%;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            background-color: #003;
+        }
         .wrap{
             width: 1200px;
             display: flex;
             margin: auto;
         }
         .item{
-            width: 370px;
+            width: 368px;
             margin: 15px;
+            background-color: #fff;
+            border: 1px solid #ccc;
         }
         .item img{
             width: 100%;
@@ -31,15 +41,27 @@
             border-bottom: 1px solid #888;
             padding-bottom: 0.3em;
             margin-bottom: 0.3em;
-            font-weight: 700;
+            font-weight: 900;
         }
         .item p {
             line-height: 1.5;
+            font-weight: 100;
+        }
+        .item .text{
+            padding: 20px;
+        }
+        .item .text::before{
+            content: '';
+            height: 0;
+            width: 0;
+            border-top: 50px;
+            
+
         }
     </style>
 </head>
 <body>
-    <h1>人員介紹卡片</h1>
+    
     <div class="wrap">
         <div class="item">
             <img src="https://picsum.photos/300/300/?random=1">

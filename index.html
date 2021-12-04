@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS切版練習30 day 目錄</title>
+    <title>我的作品集</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;500&display=swap" rel="stylesheet">
+    <style type="text/css">
+        *{
+            margin: 20px;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        body{
+            
+        }
+        .wrap{
+                       
+        }
+        .item{
+            background-color: #fff;
+        }
+    
+
+
+    </style>
 </head>
 <body>
-    <h1>CSS切版練習30 day 目錄</h1>
-    <div>
+    <h1>我的作品集</h1>
+    
+    <div class="wrap">
+        <div class="item">
+            <img src="https://picsum.photos/1200/100/?random=1">
+            <h2>CSS切版練習30 day 目錄</h2>
         <ul>
             <li><a href="day01.html">CSS切版練習 day01:圖文滿版區塊</a><br></li>  
 
@@ -16,6 +43,49 @@
 
             <li><a href="day03.html">CSS切版練習 day03:人員介紹卡片</a><br></li>
         </ul>
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/1200/100/?random=3">
+            <h2>Android APP</h2>
+            <ul>
+                <li><a href="https://play.google.com/store/apps/details?id=com.hkc.calculaotrdemo1">基本練習-Android簡單實用計算機app</a>
+                <p>以實用性為主要目的製作，目標是練習基本的畫面建立，與資料處理（加減乘除），上架Google play的方式。
+                    已上架Google play</p>
+                </li>
+                <li><a href="#">抓取API練習-Android口罩地圖app</a></li>
+
+                <li><a href="#">Android ROOM練習-我的生字字典</a></li>
+            </ul>
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/1200/100/?random=5">
+            <h2>後端:PHP+Laravel</h2>
+            
+            <ul>
+                <li>
+                    <a href="https://danny-shop-project-heroku.herokuapp.com/">CRUD練習，會員系統</a> 
+                    <p>使用php+laravel+mySQL。</p>
+                    <p> 以電商網站為想法，可以放上商品的相關資訊，如名稱，價格，說明。具有會員系統，必須要註冊後登入才有新增、修改資料權限，非會員可以查看列表商品頁面及詳細商品頁面。共有首頁，新增頁，列表查看商品頁，詳細商品資料頁四個功能。</p>
+                    
+                </li>
+                <li>
+                    <a href="https://danny-message-board-project.herokuapp.com/">留言板網站</a>
+                    <p>
+                        使用php+laravel+pgsSQL
+                        製作網頁版留言版，共有兩個欄位，姓名與內容，可以在下方顯示之前的留言</p>
+                    <p></p>
+
+                </li>
+                <li>
+                    <p> 製作一個後端Restful API</p>
+                    <p>以流浪動物認養平台為想法，使用php+Laravel+MySQL建置，可以放上浪浪的資料，進行CRUD，設定有資料驗證，自定義查詢方式，如依照id排序，依照姓名排序</p>
+                </li>
+
+            </ul>
+
+        </div>
     </div>
+
+    
 </body>
 </html>
