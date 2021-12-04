@@ -55,6 +55,19 @@
         color: #ff0;
         font-weight: 500;
     }
+    .item h2:after{
+        content: '';
+        display: block;
+        width: 0%;
+        height: 2px;
+        margin: 10px 0;
+        background-color: #ff0;
+        transition: width 1s 1s;
+    }
+    .item:hover h2:after{
+        width: 100%;
+
+    }
 
     .item .text p{
         font-size: 20px;
