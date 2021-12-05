@@ -19,10 +19,14 @@
             
         }
         .wrap{
+            background-color: yellowgreen;
             display: flex;
-            flex-direction: column;        
+            flex-direction: column;
+            width: 1200px;     
+            align-items: center;   
         }
         .item{
+            width: 768px;
             line-height: 1.5;
             
         }
@@ -32,17 +36,15 @@
             
         }
         .item .text{
-            
-            height: auto;
-            width: 500px;
-            
-            
-            
+           padding-left: 30px;
         }
         img{
            
         }
-        @media screen and (max-width:768px){
+        @media screen and (min-width:768px){
+            .wrap{
+                width: 100%;
+            }
             
         }
         .item .text h2{
@@ -74,7 +76,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="https://picsum.photos/500/100/?random=1">
+            <img src="https://picsum.photos/768/100/?random=1">
             <div class="text">
                 <h1>前端</h1>
                  <h2>CSS切版練習30 day 目錄</h2>
@@ -90,7 +92,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="https://picsum.photos/500/100/?random=3">
+            <img src="https://picsum.photos/768/100/?random=3">
             <div class="text">
             <h1>Android APP</h1>
                 <h2> 1.基本練習-Android簡單實用計算機app</h2>
@@ -113,7 +115,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="https://picsum.photos/500/100/?random=5">
+            <img src="https://picsum.photos/768/100/?random=5">
             <div class="text">
                 <h2>後端</h2>
                 <br>
