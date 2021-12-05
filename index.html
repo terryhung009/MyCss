@@ -16,18 +16,19 @@
             font-family: 'Noto Sans TC', sans-serif;
         }
         body{
-            
+            background-color: yellowgreen;
         }
         .wrap{
-            background-color: yellowgreen;
+            
             display: flex;
             flex-direction: column;
-            width: 1200px;     
-            align-items: center;   
+            width: 768px;     
+            align-items:flex-start;   
         }
         .item{
             width: 768px;
             line-height: 1.5;
+            
             
         }
         .text{
@@ -36,14 +37,15 @@
             
         }
         .item .text{
-           padding-left: 30px;
+           
         }
         img{
            
         }
         @media screen and (min-width:768px){
-            .wrap{
-                width: 100%;
+            body{
+                width: 50%;
+                height: auto;
             }
             
         }
@@ -58,6 +60,11 @@
         }
         a{
             font-size: 20px;
+        }
+        .item .text .part{
+            background: #fa8;
+            padding: 0px 50px 0px 100px;
+            border-bottom: #000 solid 3px;
         }
 
 
@@ -79,34 +86,53 @@
             <img src="https://picsum.photos/768/100/?random=1">
             <div class="text">
                 <h1>前端</h1>
+                <div class="part">
                 <h2>CSS切版練習30 day 目錄</h2>
                 <br>
+                </div>
+                <div class="part">
                 <h2>CSS切版練習 day01 : 圖文滿版區塊</h2>    
                 <a href="day01.html">連結</a>
                 <br>
+                </div>
+                <div class="part">
                 <h2>CSS切版練習 day02 : 互動圖文卡片</h2>   
                 <a href="day02.html">連結</a>
                 <br>
+                </div>
+                <div class="part">
                 <h2>CSS切版練習 day03 : 人員介紹卡片</h2>
                 <a href="day03.html">連結</a>
                 <br>
+                </div>
+                <div class="part">
                 <h2>CSS切版練習 day04 : 交錯漂浮版</h2>
                 <a href="day04.html">連結</a>
                 <br>
+                </div>
+                <div class="part">
+
+                
                 <h2>CSS切版練習 day05</h2>
                 <a href="day05.html">連結</a>
+                </div>
             </div>
         </div>
         <div class="item">
             <img src="https://picsum.photos/768/100/?random=3">
             <div class="text">
             <h1>Android APP</h1>
+                <div class="part">
                 <h2> 1.基本練習-Android簡單實用計算機app</h2>
                 <a href="https://play.google.com/store/apps/details?id=com.hkc.calculaotrdemo1">連結</a>
                 <p>以實用性為主要目的製作，目標是練習基本的畫面建立，與資料處理（加減乘除），上架Google play的方式。</p>
+
                     
                 <p>已上架Google play</p>    
                 <br>
+                </div>
+
+                <div class="part">
                 <h2> 2.抓取API練習-Android口罩地圖app</h2>
                 <a href="https://play.google.com/store/apps/details?id=com.hkc.maskinfo">連結</a>
                 <p>練習抓取網路API資料，JSON物件，再取得想要的資料(藥局名稱，電話等)，配合 Android RecyclerView 將藥局名稱以列表方式呈現，另再搭配 GoolgeMap API 使用GoogleMap顯示各藥局地點。</p>
@@ -114,9 +140,14 @@
                 
                 <a href="https://drive.google.com/file/d/1ejG2AFHFH8FcOsI7aIVRhzStHMyBtbet/view?usp=sharing">展示PDF連結</a>
                 <br>
+                </div>
+
+                <div class="part">
                 <h2> 3.Android ROOM練習-我的生字字典</h2>
                 <p>使用Room套件，進行CRUD，可儲存使用者想學習的單字，並儲存中文翻譯，點一下可連結進字典網站。</p>
                 <a href="#">展示PDF連結</a>
+                </div>
+
             
             </div>
         </div>
